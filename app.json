@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "HelpWorld",
+    "slug": "monde-daide",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "helpworld",
+    "android": {
+      "package": "com.helpworld.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1E88E5"
+      }
+    },
+    "plugins": ["expo-router"],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "REMPLACE_PAR_TON_PROJECT_ID_EAS"
+      }
+    }
+  }
+}
