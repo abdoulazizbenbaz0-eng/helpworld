@@ -3,15 +3,13 @@ import { initializeAuth, getReactNativePersistence, getAuth } from "firebase/aut
 import { getFirestore } from "firebase/firestore";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-// IMPORTANT : remplace ces valeurs par celles de ton projet Firebase "helpworld-8568e"
-// Console Firebase > Parametres du projet > Tes applications > Config
 const firebaseConfig = {
-  apiKey: "REMPLACE_MOI",
+  apiKey: "AIzaSyDz27N8QJ4oNPPxJjBSezQZZ-02tT82PdA",
   authDomain: "helpworld-8568e.firebaseapp.com",
   projectId: "helpworld-8568e",
-  storageBucket: "helpworld-8568e.appspot.com",
-  messagingSenderId: "REMPLACE_MOI",
-  appId: "REMPLACE_MOI",
+  storageBucket: "helpworld-8568e.firebasestorage.app",
+  messagingSenderId: "123332903969",
+  appId: "1:123332903969:web:66c5a89467d49748378f60",
 };
 
 const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
