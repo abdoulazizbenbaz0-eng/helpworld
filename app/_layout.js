@@ -8,7 +8,10 @@ export default function RootLayout() {
         <Stack.Screen name="index" options={{ title: "Connexion" }} />
         <Stack.Screen name="register" options={{ title: "Inscription" }} />
         <Stack.Screen name="missions/index" options={{ title: "Missions" }} />
-        <Stack.Screen name="missions/[id]" options={{ title: "Détail mission" }} />
+        <Stack.Screen name="missions/[id]/index" options={{ title: "Détail mission" }} />
+        <Stack.Screen name="missions/[id]/chat" options={{ title: "Discussion" }} />
+        <Stack.Screen name="missions/[id]/candidater" options={{ title: "Postuler" }} />
+        <Stack.Screen name="missions/[id]/candidatures" options={{ title: "Candidatures" }} />
         <Stack.Screen name="profile" options={{ title: "Mon profil" }} />
       </Stack>
     </AuthProvider>
